@@ -16,7 +16,7 @@ var GuessesSoFar= [];
 //sets up the user's guesses
 	document.onkeyup = function(event) {
 	    var userGuess = String.fromCharCode(event.keyCode).toLowerCase();  //makes the user's guess lowercase
-	
+		console.log("user guess "+userGuess+" vs "+Random);
 		GuessesSoFar.push(userGuess);	//adds userGuess to the GuessesSoFar array
 		
 			if (userGuess == Random){
@@ -39,10 +39,11 @@ var GuessesSoFar= [];
 function reset(){
 		guessesLeft = 9;
 		GuessesSoFar = [];
+		Random = ComputerLetter[Math.round(Math.random() * (ComputerLetter.length - 1))]
 		}
 
 
-	var html= "<p> Press a letter to start playing.</p>"+
+	var html= 
 	"<p>Wins: "+ wins + "</p>"+
 	"<p>Losses: "+losses + "</p>"+
 	"<p>Guesses Left: "+ guessesLeft +"</p>"+
