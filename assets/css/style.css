@@ -1,0 +1,46 @@
+body{
+	background-image: url("Background.jpeg");
+}
+
+h1 {
+	margin-top: 100px;
+	margin-left: 50px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: black;
+	font-family: fantasy;
+	background-color: black;
+	font-size: 48pt;
+	text-align: center;
+	width: 80%;
+	border-top: white solid 2px;
+	border-right: white solid 2px;
+	border-left: white solid 2px;
+	background-color: rgba(255, 225, 225, 0.7);
+	
+}
+
+h2{
+	font-family: fantasy;
+	margin-left: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: black;
+	background-color: black;
+	text-align: center;
+	width: 80%;
+	font-size: 20px;
+	padding-bottom: 20px;
+	border-bottom: white solid 2px;
+	border-right: white solid 2px;
+	border-left: white solid 2px;
+	background-color: rgba(255, 225, 225, 0.7);
+	
+}
+
+p{
+	padding-top: 10px;
+	font-size: 18pt;
+	
+}

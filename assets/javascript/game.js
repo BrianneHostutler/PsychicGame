@@ -13,6 +13,9 @@ console.log(Random);
 //initializes the GuessesSoFar variable
 var GuessesSoFar= []; 
 
+
+
+
 //sets up the user's guesses
 	document.onkeyup = function(event) {
 	    var userGuess = String.fromCharCode(event.keyCode).toLowerCase();  //makes the user's guess lowercase
